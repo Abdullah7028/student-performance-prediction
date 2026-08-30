@@ -125,4 +125,4 @@ with col3:
 
 # Dataset preview
 with st.expander("📋 View Dataset"):
-    st.dataframe(df.head(20), use_container_width=True)
+    st.dataframe(df, use_container_width=True)
